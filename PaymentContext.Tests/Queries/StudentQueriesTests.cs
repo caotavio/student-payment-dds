@@ -26,7 +26,7 @@ namespace PaymentContext.Tests
                 _students.Add(new Student(
                     new Name("Student", i.ToString()),
                     new Document("1111111111" + i.ToString(), EDocumentType.PPS),
-                    new Email(i.ToString() + "@balta.io")
+                    new Email(i.ToString() + "@ironman.io")
                 ));
             }
         }
